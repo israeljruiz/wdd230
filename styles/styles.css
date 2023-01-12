@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("../images/byui.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: 0;
+}
+
+.course-name {
+    text-align: left;
+    margin: 0;
+    font-size: 5em;
+    font-weight: normal;
+    color: white;
+}
+
+.profile {
+    height: 15em;
+    width: 15em;
+    margin: 15px;
+    border-radius: 50%;
+    float: right;
+}
+
+.main-nav {
+    font-size: larger;
+}
+
+.main-nav ul li {
+    padding-bottom: .5em;
+}
+
+.divider {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+.padding {
+    padding-left: 1em;
+}
