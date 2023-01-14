@@ -2,16 +2,9 @@
 @import url("https://fonts.googleapis.com/css?family=Metal+Mania");
 
 * {
-    box-sizing: border-box;
     font-family: Raleway;
     color: #777;
     width: 95%;
-}
-
-html, body {
-    margin: 0;
-    padding: 0;
-    min-height: 100%;
 }
 
 .main-header {
@@ -23,23 +16,35 @@ html, body {
 }
 
 .course-name {
-    text-align: left;
+    text-align: center;
     margin: 0;
-    font-size: 5em;
+    font-size: 3em;
     font-weight: normal;
     color: white;
+    padding-top: 2.5%;
+}
+
+.course-name2 {
+    text-align: center;
+    margin: 0;
+    font-size: 3em;
+    font-weight: normal;
+    color: white;
+    padding-bottom: 4%;
 }
 
 .profile {
-    height: 15em;
-    width: 15em;
+    height: 10em;
+    width: 11em;
     margin: 15px;
     border-radius: 50%;
-    float: right;
+    float:left;
+    margin-left: 3em;
 }
 
 .main-nav {
     font-size: larger;
+    margin: 0;
 }
 
 .main-nav ul li {
@@ -51,6 +56,24 @@ html, body {
     padding-bottom: 1em;
     margin-bottom: 1em;
 }
-.padding {
-    padding-left: 1em;
+
+footer {
+    display: block;
+}
+
+.main-footer {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("../images/byui.jpg");
+    background-blend-mode: multiply;
+    background-position: 0;
+}
+
+.footer-info {
+    text-align: center;
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: normal;
+    color: white;
+    padding-top: .5em;
+    padding-bottom: .5em;
 }
