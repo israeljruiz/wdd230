@@ -13,6 +13,8 @@
     background-blend-mode: multiply;
     background-size: cover;
     background-position: 0;
+    box-shadow: 10px 10px 5px gray;
+
 }
 
 .course-name {
@@ -66,6 +68,8 @@ footer {
     background-image: url("../images/byui.jpg");
     background-blend-mode: multiply;
     background-position: 0;
+    box-shadow: 10px 10px 5px gray;
+
 }
 
 .footer-info {
