@@ -1,0 +1,21 @@
+@media only screen and (min-width: 32.5em) {
+    .course-name {
+        font-size: 5em;
+    }
+
+    .course-name2 {
+        font-size: 4.5em;
+    }
+    
+    .profile {
+        height: 11em;
+        width: 11em;
+        margin: 15px;
+        border-radius: 50%;
+        float:left;
+        margin-left: 2em;
+    }
+    .main-header {
+        box-shadow: 10px 10px 5px gray;
+    }
+}

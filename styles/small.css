@@ -12,7 +12,6 @@
     background-blend-mode: multiply;
     background-size: cover;
     background-position: 0;
-    box-shadow: 10px 10px 5px gray;
 
 }
 
@@ -35,12 +34,11 @@
 }
 
 .profile {
+    display: block;
     height: 8em;
     width: 9em;
-    margin: 15px;
     border-radius: 50%;
-    float:left;
-    margin-left: 3em;
+    
 }
 
 .main-nav {
@@ -50,6 +48,7 @@
 
 .main-nav ul li {
     padding-bottom: .5em;
+    
 }
 
 .divider {
