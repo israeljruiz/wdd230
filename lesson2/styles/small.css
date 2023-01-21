@@ -1,0 +1,63 @@
+font-family: 'BioRhyme', serif;
+font-family: 'Josefin Sans', sans-serif;
+
+body {
+    max-width: 400px;
+    padding: 0px 1em;
+    font-family: 'BioRhyme', serif;
+    
+}
+
+header {
+    padding-block: .5em;
+    text-align: center;
+    background-color: #e7ecef;
+    color: #274c77;
+    margin: 30px 9.75px;
+    border: solid 3px #274c77;
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    width: 95%;
+    margin: 20px auto;
+}
+
+section {
+    border: solid 4px #274c77;
+    border-radius: 1em;
+    background-color: #e7ecef;
+}
+
+h3 {
+    margin: 0;
+    padding: 1em;
+    background: #274c77;
+    color: #e7ecef;
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+}
+
+img {
+    width: 90%;
+    padding-left: 5%;
+}
+
+footer {
+    background-color: #e7ecef;
+    position: relative;
+    color: #274c77;
+    padding: .75em;
+    border-radius: 5px;
+    text-align: center;
+    margin: 30px 9.75px;
+    border: solid 3px #274c77;
+
+}
+
+div {
+    margin: 10px;
+}

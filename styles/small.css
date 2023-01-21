@@ -47,9 +47,14 @@
 }
 
 .main-nav ul li {
-    padding-bottom: .5em;
-    
+    padding-bottom: .5em;    
 }
+
+a {
+    color: black
+}
+
+
 
 .divider {
     border-bottom: 1px solid black;
