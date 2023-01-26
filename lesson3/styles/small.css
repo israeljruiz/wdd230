@@ -1,3 +1,11 @@
-/* an appropriate site name, e.g., Point of the Mountain Chamber,
-the site purpose
-a simple logo that you have created for your chamber of commerce site or that you have found under a creative commons license or by permission
+color {
+    color: #444444;
+    color: #6891ca;
+    color: #f49d17;
+    color: #a4a4a4;
+}
+
+font {
+    font-family: 'Fugaz One', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
+}
