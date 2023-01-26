@@ -16,6 +16,7 @@ body {
     background-blend-mode: multiply;
     background-size: cover;
     background-position: 0;
+    text-align: center;
 
 }
 
@@ -38,10 +39,11 @@ body {
 }
 
 .profile {
-    display: block;
+
     height: 8em;
     width: 9em;
     border-radius: 50%;
+    padding: 5%;
     
 }
 
@@ -88,7 +90,7 @@ footer {
 
 .padding {
     margin-top: 1em;
-    padding-bottom: 5%;
+    padding-bottom: 10%;
 }
 
 .bottom {
