@@ -6,6 +6,10 @@
     margin: auto;
 }
 
+body {
+    padding: 5%;
+}
+
 .main-header {
     background-color: rgba(0, 0, 0, .6);
     background-image: url("../images/byui.jpg");
@@ -54,8 +58,6 @@ a {
     color: black
 }
 
-
-
 .divider {
     border-bottom: 1px solid black;
     padding-bottom: 1em;
@@ -77,7 +79,7 @@ footer {
 
 .footer-info {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: normal;
     color: white;
     padding-top: .5em;
@@ -86,8 +88,10 @@ footer {
 
 .padding {
     margin-top: 1em;
+    padding-bottom: 5%;
 }
 
 .bottom {
     margin-bottom: 1em;
+    padding: 5%;
 }
