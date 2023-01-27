@@ -9,3 +9,106 @@ font {
     font-family: 'Fugaz One', cursive;
     font-family: 'Source Sans Pro', sans-serif;
 }
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Fugaz One', cursive;
+    padding: 2%;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+header, footer {
+    background-color: #f49d17;
+    color: #444444;
+    text-align: center;
+}
+
+header, main, nav, footer {
+    max-width: 720px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.logo {
+    box-shadow: 0 0 30px gray;
+    border-style: double;
+    border-radius: 12px;
+    border-width: 2px;
+    width: 70%;
+    
+}
+
+header img {
+    display: none;
+}
+
+h1 {
+    font-size: 1.5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+h1, h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+nav {
+    background-color: #6891ca;
+    margin: 0 auto;
+    box-shadow: 0 0 30px #f49d17;
+    padding-left: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+}
+
+:active {
+    color: #f49d17;
+}
+
+nav ul li a {
+    display: block;
+    color: #444444;
+    text-align: center;
+    padding: .5rem;
+    text-decoration: none;
+    font-size: .95rem;
+    transition: 1s;
+}
+
+main {
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    margin: auto 0px;
+    width: 100%;
+}
+
+main p {
+    color: #444444;
+}
+
+footer {
+    font-size: .8rem;
+    padding: .8rem;
+}
