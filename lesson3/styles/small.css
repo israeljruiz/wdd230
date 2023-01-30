@@ -46,6 +46,16 @@ header, main, nav, footer {
     
 }
 
+
+.logo2 {
+    box-shadow: 0 0 30px gray;
+    border-style: double;
+    border-radius: 12px;
+    border-width: 2px;
+    width: 70%;
+    
+}
+
 header img {
     display: none;
 }
@@ -66,6 +76,10 @@ h1, h2 {
 
 }
 
+p {
+    font-family: 'Source Sans Pro', sans-serif
+}
+
 nav {
     background-color: #6891ca;
     margin: 0 auto;
@@ -79,8 +93,9 @@ nav ul {
     padding: 0;
 }
 
-:active {
-    color: #f49d17;
+.active {
+    background-color: #f49d17;
+    color: white;
 }
 
 nav ul li a {
@@ -111,4 +126,51 @@ main p {
 footer {
     font-size: .8rem;
     padding: .8rem;
+}
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+    color: black;
+}
+
+.colors th {
+    background-color: #f49d17;
+}
+
+.colors td {
+    width: 25%;
+    height: 3em;
+}
+
+.primary {
+    background-color: #f49d17;
+}
+
+.secondary {
+    background-color: #6891ca;
+}
+
+.accent1 {
+    background-color: #a4a4a4;
+}
+
+.accent2 {
+    background-color: #444444;
+
+}
+
+.colors tr td {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading-font {
+    font-family: 'Fugaz One', cursive;
+}
+
+.bottom p {
+    margin: 0;
 }
