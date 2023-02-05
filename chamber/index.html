@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
@@ -15,18 +16,46 @@
 </head>
 <body>
     <header>
-
-        <!-- header must contain a logo, site name, and navigation (nav), spanning the entire screen in the large view. 
+            <!-- header must contain a logo, site name, and navigation (nav), spanning the entire screen in the large view. 
             You may elect to limit the content width within the header. 
             The header also displays the current date using JavaScript in this format: Wednesday, 24 July 2020. -->
+        
+        <div id="banner">
+            <p>Welcome to the Inqa Chamber of Commerce</p>
+        </div>
+
+
         <nav>
             <!-- The navigation contains four page links and two social media external links. 
-                The navigation menu starts with a 'hamburger' button in the small and medium views and is visible in the larger view. 
-                The menu must be responsive and use JavaScript to respond to user behavior and toggle between not showing any menu items and showing all the menu items. -->
+            The navigation menu starts with a 'hamburger' button in the small and medium views and is visible in the larger view. 
+            The menu must be responsive and use JavaScript to respond to user behavior and toggle between not showing any menu items and showing all the menu items. -->
+            
+            <div id="topMenu">
+                <div id="menuIconTitle">
+                    <img src="images/inqa.png" alt="Inqa Chamber of Commerce logo">
+                    <h3>Inqa Chamber of Commerce</h3>
+                </div>
+                <div id="socialNav">
+                    <div>
+                        <a target="_blank" href="https://www.linkedin.com/in/israeljruiz/"><img src="images/linkedInlogo.png" alt="LinkedIn icon" class="socialImg"></a>
 
+                        <a target="_blank" href="https://www.facebook.com/israeljruiz"><img src="images/fbLogo.png" alt="Facebook logo" class="socialImg"></a>
+                    </div>
+                    <button id="hamburgerBtn">
+                        <span>☰</span>
+                        <span>x</span>
+                    </button>
+                </div>
+            </div>
 
+            <p id="date"></p>
+            <ul id="primaryNav">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
         </nav>
-
     </header>
     
     <main>
