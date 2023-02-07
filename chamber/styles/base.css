@@ -10,6 +10,10 @@ font {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+body {
+    padding: 1%;
+}
+
 #banner {
     display: flex;
     align-items: center;
@@ -35,9 +39,15 @@ nav {
     justify-content: space-between;
 }
 
+#headerLogo {
+    border-radius: 10%;
+
+}
+
 #menuIconTitle {
     display: flex;
     align-items: center;
+    
 }
 
 #menuIconTitle img {
@@ -88,7 +98,7 @@ nav button {
 }
 
 #date {
-    padding: 0px;
+    padding: 10px;
     left: 45vw;
     text-align: center;
     color: #444444;
@@ -101,3 +111,59 @@ nav ul {
     margin: 0px;
     display: none;
 }
+
+footer {
+    display: flex;
+    padding: 1rem 0rem;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    background-color: #f49d17;
+
+}
+
+#info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#compInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footerLogo {
+    width: 90px;
+    border-radius: 10%;
+
+}
+
+footer p, footer h4, footer a, footer span {
+    color: #444444;
+    text-align: center;
+    margin: 0px;
+    margin-top: .5rem;
+
+}
+
+#created {
+    width: 90%;
+    padding-top: 1rem;
+    border-top: 1.5px solid white;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#created p {
+    margin: .1rem;
+}
+
