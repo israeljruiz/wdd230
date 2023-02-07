@@ -112,6 +112,21 @@ nav ul {
     display: none;
 }
 
+nav ul.open {
+    display: block;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 1rem;
+    color: #444444;
+}
+
+nav ul li:hover {
+    background-color: #6891ca;
+}
+
 footer {
     display: flex;
     padding: 1rem 0rem;
@@ -167,3 +182,128 @@ footer p, footer h4, footer a, footer span {
     margin: .1rem;
 }
 
+#hero, #join, #events, #weather, #news, #spotlight1, #spotlight2 {
+    margin-top: 1rem;
+    min-height: 300px;
+}
+
+#hero {
+    width: 100%;
+    position: relative;
+    background-color: #6891ca;
+}
+
+main {
+    display: block;
+}
+
+main div {
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#hero img {
+    width: 100%;
+    object-fit: none;
+    border-radius: .5rem;
+    object-position: center;
+    position: relative;
+}
+
+#hero h3 {
+    font-size: 2rem;
+    top: 10px;
+    color: #444444;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+#hero div {
+    width: 100%;
+    top: 200px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#join {
+    background-color: #6891ca;
+    border-radius: .5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#join h3 {
+    font-size: 2rem;
+    color: #444444;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+#events {
+    background-color: #6891ca;
+    border-radius: .5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#events h3 {
+    font-size: 2rem;
+    color: #444444;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+#weather {
+    background-color: #6891ca;
+    border-radius: .5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#weather h3 {
+    font-size: 2rem;
+    color: #444444;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+#news {
+    background-color: #6891ca;
+    border-radius: .5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#news h3 {
+    font-size: 2rem;
+    color: #444444;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+#spotlight {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.spotlightItem img {
+    width: 100%;
+}
+
+.spotlightItem p, .spotlightItem a, .spotlightItem h3, .spotlightItem h4 {
+    text-align: center;
+}

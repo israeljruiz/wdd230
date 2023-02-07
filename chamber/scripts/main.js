@@ -10,3 +10,11 @@ const dateTime = `Last updated: ${yearMonthDay} ${hourMinutesSeconds} `;
 document.getElementById('updated').innerHTML = dateTime
 
 document.getElementById('year').innerHTML = `&copy; ${new Date().getFullYear()}`;
+
+function toggleHamb () {
+    document.getElementById('primaryNav').classList.toggle('open');
+    document.getElementById('hamburgerBtn').classList.toggle('open');
+}
+
+const close = document.getElementById('hamburgerBtn');
+close.onclick = toggleHamb;
