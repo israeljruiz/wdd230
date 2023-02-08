@@ -1,0 +1,65 @@
+@media only screen and (min-width: 32em) {
+    #hamburgerBtn {
+        margin-left: 90px;
+    }
+
+    #events {
+        display: inline-flex;
+        width: 59%;
+    }
+
+    #weather {
+        width: 40%;
+        display: inline-flex;
+    }
+
+    #info {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #info div:nth-child(1) {
+        padding: 0px 2rem;
+        display: flex
+    }
+
+    #compInfo {
+        flex-direction: row;
+    }
+
+    #info div:nth-child(2) {
+        padding: 0px 2rem;
+    }
+
+    #created {
+        flex-direction: row;
+    }
+
+    #created p {
+        padding: 0px 0px;
+    }
+
+    #created p::after {
+        content: ' | ';
+    }
+
+    #created p:last-child:after {
+        content: '';
+    }
+
+    #created p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
