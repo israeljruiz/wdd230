@@ -188,9 +188,11 @@ footer p, footer h4, footer a, footer span {
 }
 
 #hero {
-    position: relative;
     background-color: #6891ca;
     border-radius: .5rem;
+    background-image: url(../images/sanIsidro.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 main {
