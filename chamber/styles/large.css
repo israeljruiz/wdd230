@@ -46,8 +46,7 @@
         grid-column: 2/3;
         grid-row: 1/3;
         margin-left: 1rem;
-        margin-right: 1rem;
-        
+        margin-right: 1rem;        
     }
 
     #news {
@@ -62,7 +61,6 @@
         grid-row: 1/4;
         display: grid;
         margin-top: 1rem;
-
     }
 
     .spotlightItem1, .spotlightItem2, .spotlightItem3 {
