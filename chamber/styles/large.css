@@ -13,7 +13,6 @@
     }
 
     #join, #events, #weather {
-        min-width: 150 px;
         padding: 30px;
     }
 
