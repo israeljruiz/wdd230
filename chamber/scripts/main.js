@@ -18,3 +18,22 @@ function toggleHamb () {
 
 const close = document.getElementById('hamburgerBtn');
 close.onclick = toggleHamb;
+
+const d = new Date();
+let weekday = d.getDay();
+var message
+
+switch (weekday) {
+    case 1:
+        message = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."
+        break;
+    case 0:
+    case 2:
+    case 3:
+    case 4:
+    case 5:
+    case 6:
+        message = "Welcome to the Inqa Chamber of Commerce!";
+}
+
+document.querySelector('.meet').innerHTML = message
